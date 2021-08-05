@@ -1,4 +1,3 @@
-from genericpath import isfile
 from colorama import Fore
 from shutil import copy
 import os
@@ -12,7 +11,7 @@ def addMessage(message):
     print("adding message {0}".format(message))
 
     print("reading lines..")
-    
+
     print("attempting to open temp file..")
     if (os.path.isfile("new_cfg.txt")):
         print("found")
@@ -54,7 +53,7 @@ def addMessage(message):
     print("found {0} messages!".format(messageCount))
     print("adding new message..")
 
-    newMessage = 'alias "message_{0}" "{1}"'.format(messageCount + 1, message)
+    newMessage = 'alias "message_{0}" "say {1}"'.format(messageCount + 1, message)
 
     print("inserting new message..")
     fullList.insert(insertLine - 1, newMessage)
