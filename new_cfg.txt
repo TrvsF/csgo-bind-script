@@ -1,8 +1,8 @@
 // TODO
-// add more messages
-// figure out why multiline shit isnt working
-// fix everything else
-// make a script to automate this
+// add more messages [DONE]
+// figure out why multiline shit isnt working [CANT FIX]
+// fix everything else [DONE]
+// make a script to automate this [DONE]
 
 echo ""
 echo ""
@@ -30,6 +30,7 @@ alias "message_15" "say discuss how you make blowjobs"
 alias "message_16" "say i love you"
 alias "message_17" "say joe cloned himself"
 alias "message_18" "say github.com/trvsf"
+alias "message_19" "say not poggers"
 
 // init the logic to swap randomly
 alias "roll_1" "alias result message_1; alias cycle roll_2"
@@ -49,7 +50,8 @@ alias "roll_14" "alias result message_14; alias cycle roll_15"
 alias "roll_15" "alias result message_15; alias cycle roll_16"
 alias "roll_16" "alias result message_16; alias cycle roll_17"
 alias "roll_17" "alias result message_17; alias cycle roll_18"
-alias "roll_18" "alias result message_18; alias cycle roll_1"
+alias "roll_18" "alias result message_18; alias cycle roll_19"
+alias "roll_19" "alias result message_19; alias cycle roll_1"
 
 // logic behind the cycle and init some vars 
 alias "run_script" "result; cycle; poggers"
@@ -58,7 +60,7 @@ alias "cycle" "roll_2"
 alias "poggers" "echo generating random message..."
 
 // england
-// fucked bc if u move it resets the cycle :(
+// csgo limits messages sent a second and there's no way i know of to add a delay :(
 alias "england_1" "say CAM ON INGERLAND; england_2"
 alias "england_2" "say *BANG* *BANG*; england_3"
 alias "england_3" "say SCOR SUM FACKIN GOALS;"
