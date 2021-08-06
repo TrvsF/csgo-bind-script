@@ -1,6 +1,11 @@
 # csgo-bind-script
-epic script to make people LOL
+sudo-random message generator to annoy people on csgo
 
-put random_bind.cfg in ur csgo/cfg folder
-type exec random_bind to init the script
-press the "[" button to produce a random funny bind!
+to use
+ - extract all files to a location
+ - [optional] change csgoPath to were csgo is saved for you
+ - run add.py
+ - choose 0 after ur done playing around
+ - type 'exec random_bind.cfg' in ur csgo console
+ - press ']'
+ - :)
